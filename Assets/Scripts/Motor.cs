@@ -6,7 +6,7 @@ public class Motor : MonoBehaviour
 
     [SerializeField] private float _minRPM = 0;
     [SerializeField] private float _maxRPM = 7000;
-    [SerializeField] private const int _motorTimeConstant = 200; // ms
+    [SerializeField] private const int _motorTimeConstant = 2; // ms
     [SerializeField] private bool _cw = true; // Clockwise rotation
     [SerializeField] private float _thrustCoefficient = 1.91e-6f; // N/(RPM)^2
     [SerializeField] private float _torqueCoefficient = 2.6e-7f; // Nm/(RPM)^2
